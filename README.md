@@ -23,6 +23,7 @@ for var in iterator :
     print(var)
 ```
 
+### 전역변수 사용하기
 
 # Algorithm
 
@@ -32,5 +33,6 @@ for var in iterator :
 - [깊이 우선 탐색](https://www.acmicpc.net/problemset?sort=ac_desc&algo=127)
 
 ### 푼 문제
+- <https://www.acmicpc.net/problem/2667>
 - <https://www.acmicpc.net/problem/2606>
 - <https://www.acmicpc.net/problem/1260>
