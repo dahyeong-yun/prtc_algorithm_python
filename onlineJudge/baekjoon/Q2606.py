@@ -17,7 +17,7 @@ for i in range(linked):
     graph[temp[1]].add(temp[0])
 
 
-visited = [0] * (n+1)
+visited = [0] * (n+1) # 0번째 인덱스를 사용하지 않음
 
 dfs(graph, 1, visited)
 
