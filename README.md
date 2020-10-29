@@ -1,9 +1,11 @@
 [TOC]
 
 # Hello!
-온라인 저지 풀이
+- 아래의 목적의 repo 입니다.
+    - 온라인 저지 정답 코드
+    - 코드 이해를 위한 간단한 가이드
 
-## 개선 사항
+## 개선 예정 사항
 - [ ] 자주 쓰는 코드 라이브러리 만들기
 - [ ] baekjoon 실행 및 테스트 환경 만들기
   - 실행 시간 측정
@@ -12,7 +14,7 @@
 
 # Python Cheatsheet
 
-## Basic
+## Syntax
 
 ### 조건문
 
@@ -24,15 +26,34 @@ for var in iterator :
 ```
 
 ### 전역변수 사용하기
+```python
+글로벌로_사용할_변수 = "something"
+# 함수 내부에서 
+def some_function(parameter):
+    global 글로벌로_사용할_변수
+    print(글로벌로_사용할_변수) # something 
+```
+
+## Style(for Java Developer)
+
+- 파이썬에서는 함수(메서드)와 변수에 snake_case를 사용한다.
+- 클래스에는 PascalCase를 사용한다.
+- 따라서 표기 형식만 보고도 변수인지, 함수인지, 클래스인지 어느정도 짐작할 수 있다.
+    - snake_case에 파라미터가 없으면 변수겠거니..
+
 
 # Algorithm
 
 ## DFS/BFS
 
-### 리스트
+### 백준 분류 태그 리스트
 - [깊이 우선 탐색](https://www.acmicpc.net/problemset?sort=ac_desc&algo=127)
 
 ### 푼 문제
 - <https://www.acmicpc.net/problem/2667>
 - <https://www.acmicpc.net/problem/2606>
 - <https://www.acmicpc.net/problem/1260>
+
+## Dynamic
+- <https://www.acmicpc.net/problem/9095>
+    - 참고 : <https://sihyungyou.github.io/baekjoon-9095/>
