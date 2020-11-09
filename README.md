@@ -11,6 +11,10 @@
   - 실행 시간 측정
   - 테스트 케이스 추가 가능하도록
 
+# 단계별 참고
+## 기초
+- https://code.plus/course/41
+- https://code.plus/course/42
 
 # Python Cheatsheet
 
@@ -57,3 +61,5 @@ def some_function(parameter):
 ## Dynamic
 - <https://www.acmicpc.net/problem/9095>
     - 참고 : <https://sihyungyou.github.io/baekjoon-9095/>
+    
+    
