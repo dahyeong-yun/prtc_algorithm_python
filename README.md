@@ -54,10 +54,16 @@ def some_function(parameter):
 
 # 2. Algorithm
 
+- BOJ
+- 프로그래머스
+- HackerRank
+- Codility
+
 ## 2.1 단계별 참고
-### 기초
-- https://code.plus/course/41
-- https://code.plus/course/42
+### 2.1.1 기초
+#### 2.1.1.1 백준 온라인 강의
+- 알고리즘 기초 1/2 : <https://code.plus/course/41>
+- 알고리즘 기초 2/2 : <https://code.plus/course/42>
 
 ## 2.2 항목별
 
