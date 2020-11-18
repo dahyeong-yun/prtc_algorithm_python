@@ -63,8 +63,8 @@ def some_function(parameter):
 ### 2.1.1 기초
 #### 2.1.1.1 백준 온라인 강의
 - 알고리즘 기초 1/2 : <https://code.plus/course/41>
-- 알고리즘 기초 2/2 : <https://code.plus/course/42>
   - [ ] 300 수학 1
+- 알고리즘 기초 2/2 : <https://code.plus/course/42>
 
 ## 2.2 항목별
 
