@@ -63,7 +63,8 @@ def some_function(parameter):
 ### 2.1.1 기초
 #### 2.1.1.1 백준 온라인 강의
 - 알고리즘 기초 1/2 : <https://code.plus/course/41>
-  - [ ] 300 수학 1
+  - [x] 300 수학 1
+  - [ ] 300 수학 1 연습
 - 알고리즘 기초 2/2 : <https://code.plus/course/42>
 
 ## 2.2 항목별
@@ -83,5 +84,3 @@ def some_function(parameter):
 ### 2.2.2 Dynamic
 - <https://www.acmicpc.net/problem/9095>
     - 참고 : <https://sihyungyou.github.io/baekjoon-9095/>
-    
-
