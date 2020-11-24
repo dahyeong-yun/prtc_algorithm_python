@@ -44,6 +44,8 @@ def some_function(parameter):
 - sorted()
 - map()
 - list()
+- divmod()
+  - <https://programmers.co.kr/learn/courses/4008/lessons/12732>
 
 ## 1.2 Style(for Java Developer)
 - 파이썬에서는 함수(메서드)와 변수에 snake_case를 사용한다.
