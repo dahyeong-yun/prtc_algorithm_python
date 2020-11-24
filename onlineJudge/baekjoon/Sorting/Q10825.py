@@ -1,19 +1,5 @@
-def con(n, base):
-    a = '0123456789ABCDEF'
-    re = ''
-    while n > 0:
-        n, r = divmod(n, base)
-        re = a[r] + re
-    return re
+n = int(input())
+score = [list(input().split(" ")) for _ in range(n)]
 
-def dec2(n, b):
-    char = "0123456789ABCDEF"
-    a = []
-    while(n!=0):
-        a.append(char[n % b])
-        n //= b
-    return ''.join(a[::-1])
-
-orgin_num = int(input(), 2)
-# print(con(orgin_num, 8))
-print(dec2(orgin_num, 8))
+score.sort(key=lambda each: [-int(each[1]), int(each[2]), -int(each[3]), each[0]])
+for i in score:print(i[0])
