@@ -34,7 +34,7 @@ def some_function(parameter):
     print(글로벌로_사용할_변수) # something 
 ```
 
-### 1.1.4 Built-In Functions
+## 1.2 Built-In Functions
 - range()
 - int()
 - print()
@@ -46,6 +46,9 @@ def some_function(parameter):
 - list()
 - divmod()
   - <https://programmers.co.kr/learn/courses/4008/lessons/12732>
+
+## 1.3 Library
+
 
 ## 1.2 Style(for Java Developer)
 - 파이썬에서는 함수(메서드)와 변수에 snake_case를 사용한다.
