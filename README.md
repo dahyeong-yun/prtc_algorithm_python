@@ -17,6 +17,10 @@
 
 ## 1.1 Syntax
 
+### 1.1.1 리스트
+- 리스트에 원소를 추가할 때 : `append()`
+- 리스트에 리스트 자체의 원소를 추가할 때 : `extend()` 
+
 ### 1.1.1 조건문
 
 ### 1.1.2 반복문
@@ -46,6 +50,14 @@ def some_function(parameter):
 - list()
 - divmod()
   - <https://programmers.co.kr/learn/courses/4008/lessons/12732>
+
+### 1.1.5 미분류
+- 순열 조합
+```python
+from itertools import permutations
+from itertools import combinations
+```
+
 
 ## 1.2 Style(for Java Developer)
 - 파이썬에서는 함수(메서드)와 변수에 snake_case를 사용한다.
