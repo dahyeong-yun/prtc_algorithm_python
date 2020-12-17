@@ -15,7 +15,7 @@
 # 1. Python Cheatsheet
 - 파이썬 문법 관련
 
-## 1.1 Syntax
+## 1.1 Basic Syntax
 
 ### 1.1.1 리스트
 - 리스트에 원소를 추가할 때 : `append()`
@@ -38,7 +38,7 @@ def some_function(parameter):
     print(글로벌로_사용할_변수) # something 
 ```
 
-### 1.1.4 Built-In Functions
+## 1.2 Built-In Functions
 - range()
 - int()
 - print()
@@ -51,12 +51,15 @@ def some_function(parameter):
 - divmod()
   - <https://programmers.co.kr/learn/courses/4008/lessons/12732>
 
-### 1.1.5 미분류
+### 1.2.1 미분류
 - 순열 조합
 ```python
 from itertools import permutations
 from itertools import combinations
 ```
+
+
+## 1.3 Library
 
 
 ## 1.2 Style(for Java Developer)
