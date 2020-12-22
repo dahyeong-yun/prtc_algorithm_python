@@ -26,6 +26,8 @@
 ### 1.1.1 리스트
 - 리스트에 원소를 추가할 때 : `append()`
 - 리스트에 리스트 자체의 원소를 추가할 때 : `extend()` 
+- `pop()`
+    - <https://brownbears.tistory.com/452>
 
 ### 1.1.1 조건문
 
@@ -87,7 +89,7 @@ from itertools import combinations
 #### 3.2.1.1 백준 온라인 강의(CodePlus)
 ##### 3.2.1.1.1 알고리즘 기초 1/2 : <https://code.plus/course/41>
   - [ ] 200 자료구조 1
-    - [ ] [스택](https://www.acmicpc.net/problem/10828)
+    - [x] [스택](https://www.acmicpc.net/problem/10828)
     - [ ] [단어 뒤집기](https://www.acmicpc.net/problem/9093)
     - [ ] [괄호](https://www.acmicpc.net/problem/9012)
     - [ ] [스택 수열](https://www.acmicpc.net/problem/1874)
