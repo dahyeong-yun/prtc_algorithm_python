@@ -28,16 +28,27 @@
 - 리스트에 리스트 자체의 원소를 추가할 때 : `extend()` 
 - `pop()`
     - <https://brownbears.tistory.com/452>
+#### 1.1.1.1 리스트 슬라이싱
+- 시작부터 끝
+    ```python
+    list[start:end]
+    ```
+- 스텝을 추가
+    ```python
+    list[start:end:step]
+    ```
+- 각 값을 생략 가능하다.
 
-### 1.1.1 조건문
+### 1.1.2 조건문
 
-### 1.1.2 반복문
-```python
-for var in iterator :
-    print(var)
-```
+### 1.1.3 반복문
+- 반복문 기본 형태
+    ```python
+    for var in iterator :
+        print(var)
+    ```
 
-### 1.1.3 전역변수 사용하기
+### 1.1.4 전역변수 사용하기
 ```python
 글로벌로_사용할_변수 = "something"
 # 함수 내부에서 
@@ -58,6 +69,7 @@ def some_function(parameter):
 - list()
 - divmod()
   - <https://programmers.co.kr/learn/courses/4008/lessons/12732>
+- join()
 
 ### 1.2.1 미분류
 - 순열 조합
@@ -90,9 +102,9 @@ from itertools import combinations
 ##### 3.2.1.1.1 알고리즘 기초 1/2 : <https://code.plus/course/41>
   - [ ] 200 자료구조 1
     - [x] [스택](https://www.acmicpc.net/problem/10828)
-    - [ ] [단어 뒤집기](https://www.acmicpc.net/problem/9093)
-    - [ ] [괄호](https://www.acmicpc.net/problem/9012)
-    - [ ] [스택 수열](https://www.acmicpc.net/problem/1874)
+    - [x] [단어 뒤집기](https://www.acmicpc.net/problem/9093)
+    - [x] [괄호](https://www.acmicpc.net/problem/9012)
+    - [x] [스택 수열](https://www.acmicpc.net/problem/1874)
     - [ ] [에디터](https://www.acmicpc.net/problem/1406)
     - [ ] [큐](https://www.acmicpc.net/problem/10845)
     - [ ] [조세퍼스 문제](https://www.acmicpc.net/problem/1158)
